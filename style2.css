@@ -1,0 +1,274 @@
+.body {
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+#img {
+    background-image: url("https://thumbs.gfycat.com/BackIllinformedIndri-size_restricted.gif");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 99%;
+}
+.navbar {
+    width: 100%;
+    height: 6.0rem;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly
+}
+
+#icon {
+    display: flex;
+    width:8.0rem;
+    margin-bottom: 1.0rem;
+    height: 8.0rem;
+    border-radius: 2.0rem;
+    transform: rotate(40deg);
+}
+.top-left {
+
+    margin: 2.0rem;
+    margin-left: 1.0rem;
+
+}
+
+.top-left a {
+    margin-right: 3.0rem;
+    margin-top: .10rem;
+    color: black;
+font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.top-center {
+    display: flex;
+    margin-top: 1.5rem;
+    font-size: 3.5rem;
+    color: #5807eb
+}
+.top-right {
+    display: flex;
+    margin-right: 4.0rem;
+    flex-wrap: wrap;
+}
+.item {
+    margin-left: 3.0rem;
+    margin-top: 2.7rem;
+
+    border: 0.1rem solid grey;
+    background-color: aquamarine;
+    border-radius: 0.5rem;
+    height: 2.0rem;
+    cursor: pointer;
+    font-size: 2.0rem;
+}
+.item:hover {
+    color: rgb(76, 37, 218);
+}
+
+.certificates {
+    margin-top: 1.0rem;
+    display: flex;
+    flex-direction: column;
+    width: 30.0rem;
+    margin-top: 15.0rem;
+    margin-left: 2.0rem;
+}
+.certificates a:hover{
+color:white
+}
+.tenth {
+
+    margin-top: 1.0rem;
+    margin-left: 2.0rem;
+    font-size: 2.2rem;
+    background-color: aquamarine;
+    border-radius: 2.0rem;
+    width: 12.0rem;
+    padding-top: 1.0rem;
+    height: 3.5rem;
+    cursor: pointer;
+}
+.twelth {
+    margin-top: 1.0rem;
+    margin-left: 2.0rem;
+    font-size: 2.2rem;
+    background-color: aquamarine;
+    border-radius: 2.0rem;
+    width: 11.0rem;
+    padding-top: 1.0rem;
+    height: 3.5rem;
+    cursor: pointer;
+}
+.bach {
+    margin-top: 1.0rem;
+    margin-left: 2.0rem;
+    font-size: 2.2rem;
+    background-color: aquamarine;
+    border-radius: 2.0rem;
+    width: 11.0rem;
+    padding-top: 1.0rem;
+    height: 3.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+.resume {
+    position: relative;
+    margin-top: 1.0rem;
+    margin-left: 2.0rem;
+    font-size: 2.2rem;
+    background-color: aquamarine;
+    border-radius: 2.0rem;
+    width: 11.0rem;
+    padding-top: 1.0rem;
+    height: 3.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+.tenth:hover {
+    color: white;
+}
+
+.twelth:hover {
+    color: white;
+}
+
+.bach:hover {
+    color: white;
+}
+
+.resume:hover {
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    left: 43.0rem;
+    bottom:0.1rem;
+    text-align: center;
+    color: rgb(3, 2, 2);
+    font-size: 2rem;
+    margin-left: 20rem;
+}
+
+#lib {
+    margin-left: 70rem;
+    margin-top: 18.9rem;
+    background-color: rgb(20, 192, 123);
+    text-decoration: none;
+    border-radius: 2.0rem;
+    text-align: center;
+    width: 8.0rem;
+    font-size: 2rem;
+}
+#gym {
+    text-decoration: none;
+    margin-left:85.0rem;
+    margin-top: -2.5rem;
+    background-color: rgb(20, 192, 123);
+    border-radius: 2.0rem;
+    text-align: center;
+    width: 8.0rem;
+    font-size: 2rem;
+}
+
+.visit {
+    position: absolute;
+    bottom:95px;
+    margin-left: 75.0rem;
+   
+    background-color: rgb(167, 228, 199);
+    border-radius: 2.0rem;
+    text-align: center;
+    width: 12.0rem;
+    font-size: 1.2rem;
+    color: rgb(111, 31, 203);
+     font-size: 2.5rem;
+}
+@media(max-width:998px)
+{
+    html{
+        font-size: 55%;
+    }
+    #img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-width:768px)
+{
+    html{
+        font-size: 45%;
+    }
+    #img{
+        width: 100%;
+        height: 100%;
+    }
+    #lib {
+        margin-left: 20rem;
+        margin-top: 1.9rem;
+        background-color: rgb(20, 192, 123);
+        text-decoration: none;
+        border-radius: 2.0rem;
+        text-align: center;
+        width: 8.0rem;
+        position: absolute;
+        bottom:50px;
+    }
+    #gym {
+        text-decoration: none;
+        margin-left:30.0rem;
+        margin-top: -1.0rem;
+        background-color: rgb(20, 192, 123);
+        border-radius: 2.0rem;
+        text-align: center;
+        width: 8.0rem;
+        position: absolute;
+        bottom:50px;
+    }
+    .visit {
+        margin-left: 25.0rem;
+        background-color: rgb(167, 228, 199);
+        border-radius: 2.0rem;
+        text-align: center;
+        width: 8.0rem;
+        font-size: 1.2rem;
+        color: rgb(111, 31, 203);
+    }
+    .footer {
+        position: absolute;
+        left: 15.0rem;
+        bottom:0.1rem;
+        text-align: center;
+        color: rgb(3, 2, 2);
+        font-size: 1.0rem;
+        margin-left: 7rem;
+    }
+    .item {
+        margin-left: 3.0rem;
+        margin-top: 2.7rem;
+    
+        border: 0.1rem solid grey;
+        background-color: aquamarine;
+        border-radius: 0.5rem;
+        height: 2.0rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+    }
+    #icon {
+        display: flex;
+        width:8.0rem;
+        margin-bottom: 1.0rem;
+        height: 8.0rem;
+        border-radius: 2.0rem;
+        transform: rotate(40deg);
+        margin-left: 15px;
+    }
+    
+}
